@@ -54,3 +54,18 @@
  * when media is set to "print" --> browsers load the css asynchronously,basically print refers browser that this file should be loaded async and styles/css are not required at the momment.
  * onload = this.media='all' -->  when css is loaded then style is applied to the UI
  */
+
+/**
+ * ! CRITICAL RENDERING PATH
+ *
+ * sequence of steps the browser goes through to convert HTML,CSS & JS into pixels on the screen.
+ *
+ * Steps of CRP ->
+ * DOM - DOM construction is incremental
+ * CSSOM - CSS object model -> is not incremental
+ * render tree
+ * layout
+ * paint
+ *
+ * <meta name="viewport" content="width=device-width">
+ */
