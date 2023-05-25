@@ -42,7 +42,15 @@
  * PRELOAD -> preloading data for us but doesn't execute.execution will only happen when we consume the file.
  * ! PRELOAD doesn't execute the file
  *
- * PREFETCH -> it is used when we know that we have to utilize next js or html page in next page.so we prefetch that particular script before visiting to next page.
+ * PREFETCH -> it is used when we know that we have to utilize next js or html page in next page.so we prefetch that particular script before visiting to next page. OPTIMIZATION and fast loading of next page
  *
  * PRECONNECT -> is used when we have to make a network call to another domain , so it will do the connection /handshake before in hand.optimize the network call .
+ */
+
+/**
+ * ! Load CSS asynchronously
+ * <link rel="stylesheet" href="nonCritical.css" media="print" onload="this.media='all'">
+ *
+ * when media is set to "print" --> browsers load the css asynchronously,basically print refers browser that this file should be loaded async and styles/css are not required at the momment.
+ * onload = this.media='all' -->  when css is loaded then style is applied to the UI
  */
