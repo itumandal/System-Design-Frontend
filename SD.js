@@ -29,3 +29,20 @@
  *! the important thing is that the async attribute doesn't guarantee the order of execution of the scripts, but defer does.so what does that mean?
  *! if we are putting an async attributes in multiple scripts, so suppose you have multiple scripts which are dependent on each others, in such case defer is the optimized way to use. coz defer attributes maintains the order of execution.
  */
+
+/**
+ * Lazy Loading
+ *
+ *! <img loading="lazy"/> - special attribute loading in img tag , so if that particular image is not in a viewport of the user then it is not downloaded, the moment you arrive on that page then only those image gets downloaded in network tab.
+
+ loading="eager" -> is the default of img tag which automatically starts downloading the images. meaning normal behaviour of img tag.
+ */
+
+/**
+ * PRELOAD -> preloading data for us but doesn't execute.execution will only happen when we consume the file.
+ * ! PRELOAD doesn't execute the file
+ *
+ * PREFETCH -> it is used when we know that we have to utilize next js or html page in next page.so we prefetch that particular script before visiting to next page.
+ *
+ * PRECONNECT -> is used when we have to make a network call to another domain , so it will do the connection /handshake before in hand.optimize the network call .
+ */
