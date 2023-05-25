@@ -6,3 +6,4 @@ Topics Covered 👎
     - Load JS Asynchronously 
     - Lazy Loading
     - PRELOAD | PREFETCH | PRECONNECT
+    - CRITICAL RENDERING PATH (CRP)
