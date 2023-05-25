@@ -9,3 +9,7 @@ Topics Covered 👎
    - Lazy Loading
    - PRELOAD | PREFETCH | PRECONNECT
    - Load CSS asynchronously
+    - Load JS Asynchronously 
+    - Lazy Loading
+    - PRELOAD | PREFETCH | PRECONNECT
+    - CRITICAL RENDERING PATH (CRP)
